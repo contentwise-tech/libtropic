@@ -283,3 +283,5 @@ endif()
 if(LT_RETRIEVE_ALARM_LOG)
     target_compile_definitions(tropic PUBLIC LT_RETRIEVE_ALARM_LOG)
 endif()
+
+install(TARGETS tropic)
